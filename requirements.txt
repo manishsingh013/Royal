@@ -11,7 +11,7 @@ telegraph[aio]
 markdown
 flask>=2.2.5
 gunicorn==20.1.0
-aiohttp==3.8.2
+aiohttp==3.9.1
 pymongo[srv]==3.12.3
 bs4
 heroku3
