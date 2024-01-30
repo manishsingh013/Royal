@@ -10,7 +10,7 @@ from telethon.sessions import StringSession
 from plugins.tgraph import *
 from helpers import *
 from telethon import TelegramClient, events
-import urllib.parse
+import urllib.parse.html
 from telethon.errors import UserNotParticipantError
 from telethon.tl.functions.channels import GetParticipantRequest
 import re
