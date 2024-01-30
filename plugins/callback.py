@@ -105,7 +105,7 @@ async def button(bot, cmd: CallbackQuery):
                     ]
                 ]
             ),
-            parse_mode="html"
+            parse_mode="HTML"
         )
         elif "Help_msg" in cb_data:
             await cmd.message.edit(
@@ -122,7 +122,7 @@ async def button(bot, cmd: CallbackQuery):
                     ]
                 ]
             ),
-            parse_mode="html"
+            parse_mode="HTML"
         )
         elif "gohome" in cb_data:
             await cmd.message.edit(
@@ -139,7 +139,7 @@ async def button(bot, cmd: CallbackQuery):
                     ]
                 ]
             ),
-            parse_mode="html"
+            parse_mode="HTML"
         )
 
         elif "remove_api" in cb_data:
