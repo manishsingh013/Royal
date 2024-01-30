@@ -150,7 +150,7 @@ async def message_handler(event):
 
 
 async def escape_url(str):
-    escape_url = urllib.parse.quote(str)
+    escape_url = urllib.parse.html(str)
     return escape_url
 
 
