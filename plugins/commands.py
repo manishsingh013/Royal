@@ -54,7 +54,7 @@ async def request_handler(c,m: Message):
 
     if VERIFY.get(str(chat_id)) == None: # Make Admin's ID List
         admin_list = []
-        async for x in c.iter_chat_members(chat_id=chat_id, filter="administrators"):
+        async for x in c.get_chat_members(chat_id=chat_id, filter="administrators"):
             admin_id = x.user.id 
             admin_list.append(admin_id)
         admin_list.append(None)
